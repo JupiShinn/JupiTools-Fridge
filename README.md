@@ -4,13 +4,13 @@ Interactive prototype for designing 3D printable magnets. It includes shape and 
 
 ## Run locally
 
-Serve this directory with any static web server, then open `dist/index.html`. For example:
+Serve this directory with any static web server, then open `index.html`. For example:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Open <http://localhost:8000/dist/>. An internet connection is needed for the JavaScript libraries and optional font assets loaded from a CDN.
+Open <http://localhost:8000/>. An internet connection is needed for the JavaScript libraries and optional font assets loaded from a CDN.
 
 ## 3MF colors
 
