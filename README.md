@@ -1,4 +1,4 @@
-# JupiTools Magnet Maker — Phase 01
+# JupiTools - Fridge
 
 Interactive prototype for designing 3D printable magnets. It includes shape and dimension controls, rounded corners, inner contour, front and body colors, text, rear magnet pockets, a 3D preview, and STL/3MF export.
 
