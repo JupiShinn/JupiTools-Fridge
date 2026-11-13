@@ -1,6 +1,8 @@
 # JupiTools - Fridge
 
-![JupiTools - Fridge app preview](assets/jupitools-fridge-preview.png)
+![JupiTools - Fridge front preview](assets/jupitools-fridge-preview.png)
+
+![JupiTools - Fridge bottom view and magnet pocket controls](assets/jupitools-fridge-bottom-preview.png)
 
 Interactive prototype for designing 3D printable magnets. It includes shape and dimension controls, rounded corners, inner contour, front and body colors, text, rear magnet pockets, a 3D preview, STL/3MF export, PNG/JPEG artwork preview, and print-size PNG export for UV printing.
 
