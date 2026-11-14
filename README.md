@@ -1,6 +1,6 @@
 # JupiTools - Fridge
 
-**[Open JupiTools - Fridge in your browser](https://jupishinn.github.io/JupiTools-Fridge/)** — no download or setup required. Design your magnet online and download STL, color 3MF, or print-size PNG directly from the app. To keep GitHub open, Command-click the link on Mac or Ctrl-click it on Windows/Linux.
+**[Open JupiTools - Fridge in your browser](https://jupishinn.github.io/JupiTools-Fridge/)** — no download or setup required. Design your magnet online and download STL, color 3MF, or print-size PNG directly from the app.
 
 ![JupiTools - Fridge front preview](assets/jupitools-fridge-preview.png)
 
