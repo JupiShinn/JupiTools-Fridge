@@ -1,12 +1,22 @@
 # JupiTools - Fridge
 
-**[Open JupiTools - Fridge in your browser](https://jupishinn.github.io/JupiTools-Fridge/)** — no download or setup required. Design your magnet online and download STL, 3MF, or PNG directly from the app.
+**<a href="https://jupishinn.github.io/JupiTools-Fridge/" target="_blank" rel="noopener noreferrer">Open JupiTools - Fridge in your browser ↗</a>** — no download or setup required. Design your magnet online and download STL, color 3MF, or print-size PNG directly from the app.
 
 ![JupiTools - Fridge front preview](assets/jupitools-fridge-preview.png)
 
 ![JupiTools - Fridge bottom view and magnet pocket controls](assets/jupitools-fridge-bottom-preview.png)
 
-Interactive prototype for designing 3D printable magnets. It includes shape and dimension controls, rounded corners, inner contour, front and body colors, text, rear magnet pockets, a 3D preview, STL/3MF export, PNG/JPEG artwork preview, and print-size PNG export for UV printing.
+Interactive prototype for designing 3D printable magnets. Choose a shape and dimensions, add a contour or text, place rear magnet pockets, and preview the result in 3D. You can also add PNG/JPEG artwork for a visual mockup or import an SVG logo to create colored 3D parts for 3MF export.
+
+## SVG logos and color 3MF
+
+1. Open **SVG logo / 3MF** and choose an SVG file. The app reads filled paths and can render many logos containing text, strokes, and transforms.
+2. Set the logo size and position on the magnet. Choose a color from the paint bucket swatches or the color picker, then click a visible region of the logo to recolor it. Repeat for other regions.
+3. Open **Export**, select **3MF**, and download the file. The front face, contour, text, and logo colors become separate printable parts. The app checks the geometry before exporting.
+
+The 3MF assigns colored parts to filament slots. Match the slot colors to your filaments in the slicer before slicing. It does **not** include a printer profile or G-code. Very detailed SVG effects may be simplified to a limited set of flat print colors.
+
+PNG/JPEG artwork is for on-screen preview and print-size PNG export for UV printing. It is not included as 3D geometry in STL or 3MF.
 
 ## Run locally (step by step)
 
@@ -33,10 +43,8 @@ You need [Git](https://git-scm.com/downloads) if you choose the clone method, an
 
 If you see the controls but **no magnet**, make sure the command window is open in the project folder, `fonts/arial_ce_bold.typeface.json` is present, and your internet connection is working. If port 8000 is already in use, use port 8001 in the server command and open `http://localhost:8001/index.html` instead.
 
-## 3MF colors
+## Export file names
 
-The 3MF export contains separate parts and desired colors, with part-to-filament slot assignments for slicers. Check that the filament colors assigned to those slots in your slicer match the chosen colors before slicing. The file does not contain a printer profile or G-code.
-
-Exported files can use the text automatically or an exact custom file name.
+Exported files can use the magnet text automatically or an exact custom file name. Select the option in **Export** before downloading.
 
 This is a Phase 01 prototype. Check geometry and slicer settings before printing.
